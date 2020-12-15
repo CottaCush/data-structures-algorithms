@@ -9,6 +9,9 @@ To add a submission of a task to the repository, take the following steps.
 - Find the folder that corresponds to the name of the question.
 - Make your submission inside that folder. The name of your file containing your submission should be your name, separated by hyphens. E.g. `folashade-daniel`
 
+**To make your submissions easier to understand by people that want to check it, it would be helpful to add comments explaining it.**
+**You should also add indicate the time and space complexities of your submissions.**
+
 ## Question Creation
 
 You may drop questions from any website including but not limited to [Leetcode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/) and [Codility](https://www.codility.com//). To create a question eligible for submissions, follow the following steps.
