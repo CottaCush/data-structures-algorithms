@@ -11,12 +11,13 @@ To add a submission of a task to the repository, take the following steps.
 
 ## Question Creation
 
-To create a question eligible for submissions, follow the following steps.
+You may drop questions from any website including but not limited to [Leetcode](https://leetcode.com/), [HackerRank](https://www.hackerrank.com/) and [Codility](https://www.codility.com//). To create a question eligible for submissions, follow the following steps.
 
 ### Leetcode Problems
 
 - Navigate to the leetcode directory from the root of the repository
-- Create the folder that corresponds to the name of the question. This can be gotten from the url to the question. E.g. if the url to the question is `https://leetcode.com/problems/merge-sorted-array/`, the name should be `merge-sorted-array`
+- Create and Navigate to the folder that corresponds to the topic you are dropping questions for. E.g. `Linked Lists`, `String Matching and Parsing`.
+- Create and navigate to the folder that corresponds to the name of the question. This can be gotten from the url to the question. E.g. if the url to the question is `https://leetcode.com/problems/merge-sorted-array/`, the name should be `merge-sorted-array`. Submissions to the question would be made to this folder.
 - Create a `link.txt` file that contains the url to the question.
 
 ### HackerRank Problems
@@ -26,3 +27,14 @@ To create a question eligible for submissions, follow the following steps.
 ### Codility Problems
 
 *TODO*
+
+### Other Website we may use
+
+*TODO*
+
+## Contributing
+
+- [ ] Create a Contributing.md file to guide open source contributions
+- [ ] Make the repository public
+- [ ] Add a License maybe???
+- [ ] Decide whether open source contributors can also add questions or can only make submissions to questions we post.
