@@ -23,6 +23,13 @@ You may drop questions from any website including but not limited to [Leetcode](
 - Create and navigate to the folder that corresponds to the name of the question. This can be gotten from the url to the question. E.g. if the url to the question is `https://leetcode.com/problems/merge-sorted-array/`, the name should be `merge-sorted-array`. Submissions to the question would be made to this folder.
 - Create a `link.txt` file that contains the url to the question.
 
+### Hackerearth Problems
+- Navigate to the hackerearth directory from the root of the repository
+- Create and Navigate to the folder that corresponds to the topic you are dropping questions for. E.g. `Merge Sort`, `Cheap Thrills`.
+- Create and navigate to the folder that corresponds to the name of the question. This can be gotten from the url to the question. E.g. if the url to the question is `https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/practice-problems/algorithm/cheap-thrills/`, the name should be `cheap-thrills`. Submissions to the question would be made to this folder.
+- Create a `link.txt` file that contains the url to the question.
+
+
 ### HackerRank Problems
 
 *TODO*
