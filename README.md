@@ -7,7 +7,7 @@ To add a submission of a task to the repository, take the following steps.
 
 - Navigate to the website directory from the root of the repository. This can be `leetcode`, `codility` or `hackerrank`
 - Find the folder that corresponds to the name of the question.
-- Make your submission inside that folder. The name of your file containing your submission should be your name, separated by hyphens. E.g. `folashade-daniel`
+- Make your submission inside that folder. The name of your file containing your submission should be your name, separated by hyphens. E.g. `john-doe`
 
 **To make your submissions easier to understand by people that want to check it, it would be helpful to add comments explaining it.**
 **You should also add indicate the time and space complexities of your submissions.**
@@ -38,7 +38,4 @@ You may drop questions from any website including but not limited to [Leetcode](
 
 ## Contributing
 
-- [ ] Create a Contributing.md file to guide open source contributions
-- [ ] Make the repository public
-- [ ] Add a License maybe???
-- [ ] Decide whether open source contributors can also add questions or can only make submissions to questions we post.
+We would love to see your approaches to our problems. To contribute your solution to any of the problems, create a pull request following the [Submission section](#submissions) of this page. Your code should be commented with explanations / the basic approach to make it easier to understand by people that want to go through it.
