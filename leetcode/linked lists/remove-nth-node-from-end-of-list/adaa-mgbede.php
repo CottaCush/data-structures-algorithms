@@ -40,34 +40,29 @@ class Solution {
      * @return ListNode
      */
     function removeNthFromEnd($head, $n) {
-        $this->head = $head;
-        if(!$this->head) {
+        if(!$head) {
             return $head;
         }
 
-        $newNode = new ListNode();
         $count = $this->countList($head);
-        $position = $count - $n;
+        $pos = $count - $n;
 
         if($count == 1) {
-            return $newNode->next;
+            return new ListNode(null);
         }
         if ($count == $n) {
-            $head = $this->head->next;
-            $this->head = null;
+            $head = $head->next;
             return $head;
         } else {
-            $newNode = $this->head;
-            for($i = 1; $i < $position; $i++) {
-                if($newNode != null) {
-                    $newNode = $newNode->next;
+            $current = $head;
+            for($i = 0; $i < $pos - 1; $i++) {
+                if($current != null) {
+                    $current = $current->next;
                 }
             }
-            if($newNode != null && $newNode->next != null) {
-                $nodeToDelete = $newNode->next;
-                $newNode->next = $newNode->next->next;
-                $nodeToDelete = null;
-            }
+            $nodeToDelete = $current->next;
+            $current->next = $current->next->next;
+            $nodeToDelete = null;
 
             return $head;
         }
