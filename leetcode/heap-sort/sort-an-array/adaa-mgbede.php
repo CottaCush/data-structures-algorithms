@@ -33,3 +33,34 @@ function maxHeap(&$arr, $n, $i) {
         maxHeap($arr, $n, $j);
     }
 }
+
+function sortStr($str) {
+    $arrStr = str_split($str);
+    sort($arrStr);
+    return implode($arrStr);
+}
+
+function stringMatching($s, $t) {
+    $n = strlen($s);
+    $m = strlen($t);
+
+    $s = sortStr($s);
+    $t = sortStr($t);
+    str_replace()
+
+    for($i = 0; $i <= ($m - $n); $i++) {
+
+        for($j = 0; $j < $n; $j++) {
+            if($t[$i + $j] !== $s[$j]) {
+                break;
+            }
+        }
+
+        if($j == $n) {
+            return true;
+        }
+    }
+
+    return false;
+
+}
