@@ -46,7 +46,6 @@ function stringMatching($s, $t) {
 
     $s = sortStr($s);
     $t = sortStr($t);
-    str_replace()
 
     for($i = 0; $i <= ($m - $n); $i++) {
 
